@@ -1,0 +1,35 @@
+{
+  "version": "2.1",
+  "groups": [
+    {
+      "name": "",
+      "urls": [
+        "https://en.wikipedia.org/w/*",
+        "https://en.wikipedia.org/wiki/*"
+      ],
+      "substitutions": [
+        {
+          "input": "...William",
+          "inputType": "text",
+          "output": "---William",
+          "caseSensitive": false
+        },
+        {
+          "input": "is the complaint department really on",
+          "inputType": "text",
+          "output": "    ",
+          "caseSensitive": false
+        },
+        {
+          "input": "....William",
+          "inputType": "text",
+          "output": "---William",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    }
+  ]
+}
